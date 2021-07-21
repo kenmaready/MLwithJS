@@ -1,0 +1,21 @@
+{
+    "name": "logistic_regression",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "mnist": "node --max-old-space-size=4096 mnist.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@tensorflow/tfjs": "^3.8.0",
+        "lodash": "^4.17.11",
+        "memoize": "^0.1.1",
+        "mnist-data": "^1.2.6",
+        "node-remote-plot": "^1.2.0",
+        "shuffle-seed": "^1.1.6"
+    }
+}
